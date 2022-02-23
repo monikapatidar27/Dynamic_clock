@@ -1,0 +1,63 @@
+html,body{
+    margin: 0;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.imgbg{
+    width: 100%;
+    height: auto;
+}
+h1{
+    width: 100%;
+    margin-top: 15%;
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald',sans-serif;
+    letter-spacing: 5px;
+}
+#clock{
+    width: 100%;
+    position: absolute;
+    font-size:50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 25%;
+}
+
+
+
+
+@media screen and (max-width:1020px) {
+    h1{
+        font-size: 40px;
+    }
+    #clock{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:810px) {
+    h1{
+        font-size: 30px;
+    }
+    #clock{
+        font-size: 20px;
+    }
+   
+}
+@media screen and (max-width:510px) {
+    h1{
+        font-size: 8px;
+    }
+    #clock{
+        font-size: 10px;
+    }
+}
