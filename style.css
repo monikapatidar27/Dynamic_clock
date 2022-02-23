@@ -1,15 +1,17 @@
 html,body{
     margin: 0;
     width: 100%;
+    
 }
+
 .container{
-    width: 100%;
-    height: 500px;
+    width: 100vw;
+    height: 100vh;
     position: relative;
 }
 .imgbg{
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
 }
 h1{
     width: 100%;
@@ -38,6 +40,7 @@ h1{
 
 @media screen and (max-width:1020px) {
     h1{
+
         font-size: 40px;
     }
     #clock{
@@ -46,18 +49,32 @@ h1{
 }
 @media screen and (max-width:810px) {
     h1{
+        margin-top: 200px;
         font-size: 30px;
     }
     #clock{
+        margin-top: 250px;
         font-size: 20px;
     }
-   
+    /* .imgbg{
+        margin-top: 50px;
+        width: 100vw;
+        height: 80vh;
+    } */
 }
 @media screen and (max-width:510px) {
     h1{
         font-size: 8px;
+        margin-top: 200px;
     }
     #clock{
         font-size: 10px;
+        margin-top: 250px;
     }
+    .imgbg{
+        margin-top: 70px;
+        width: 100vw;
+        height: 60vh;
+    }
+    
 }
